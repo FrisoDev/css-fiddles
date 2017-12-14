@@ -1,0 +1,21 @@
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    background-image: url('https://static2.nieuws.medialaancdn.be/sites/nieuws.vtm.be/files/styles/vmmaplayer_big/public/videocms/image/2015/06/e948b082f4b6781d9e4ad1197e2b1e72.jpg?itok=EPLMRGK5');
+
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
